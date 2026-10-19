@@ -1,0 +1,20 @@
+{
+  "name": "roadwatch-baru",
+  "version": "1.0.0",
+  "description": "Dashboard monitoring pemeliharaan jalan kebun",
+  "main": "server.js",
+  "scripts": {
+    "build": "esbuild public/app.jsx --bundle --outfile=public/app.bundle.js",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.14.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.5"
+  }
+}
